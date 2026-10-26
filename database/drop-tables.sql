@@ -7,4 +7,5 @@ DROP TABLE genres;
 DROP TABLE movies_directors;
 DROP TABLE directors;
 
+DROP TABLE genders;
 DROP TABLE movies;
