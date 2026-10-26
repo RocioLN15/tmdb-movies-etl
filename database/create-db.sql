@@ -11,7 +11,7 @@ BEGIN TRY
 		release_date DATE,
 		budget BIGINT,
 		revenue BIGINT,
-		vote_avarage NUMERIC(5, 3),
+		vote_average NUMERIC(5, 3),
 		vote_count INT
 	)
 
@@ -55,7 +55,7 @@ BEGIN TRY
 	(
 		id INT NOT NULL,
 		name VARCHAR(70) NOT NULL,
-		original_name VARCHAR(70),
+		original_name NVARCHAR(70),
 		gender_id INT
 	)
 
@@ -73,7 +73,7 @@ BEGIN TRY
 	(
 		id INT NOT NULL,
 		name VARCHAR(70) NOT NULL,
-		original_name VARCHAR(70),
+		original_name NVARCHAR(70),
 		gender_id INT
 	)
 
